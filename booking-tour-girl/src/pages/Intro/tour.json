@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "ten_tour": "Hà Nội - Hạ Long",
+    "thanh_pho": "Hà Nội",
+    "tinh": "Quảng Ninh",
+    "thoi_gian": "3 ngày 2 đêm",
+    "ngay_di": "2024-07-10",
+    "gia_tien": 3500000,
+    "image_url": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-du-lich-nha-trang-da-lat.png",
+    "is_bookMarked": "false"
+  },
+  {
+    "id": 2,
+    "ten_tour": "TP HCM - Phú Quốc",
+    "thanh_pho": "TP HCM",
+    "tinh": "Kiên Giang",
+    "thoi_gian": "4 ngày 3 đêm",
+    "ngay_di": "2024-07-15",
+    "gia_tien": 5000000,
+    "image_url": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-du-lich-mien-tay.png",
+    "is_bookMarked": "false"
+  },
+  {
+    "id": 3,
+    "ten_tour": "Đà Nẵng - Hội An",
+    "thanh_pho": "Đà Nẵng",
+    "tinh": "Quảng Nam",
+    "thoi_gian": "2 ngày 1 đêm",
+    "ngay_di": "2024-07-20",
+    "gia_tien": 2500000,
+    "image_url": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-du-lich-thai-lan.png",
+    "is_bookMarked": "false"
+  },
+  {
+    "id": 4,
+    "ten_tour": "Nha Trang - Đà Lạt",
+    "thanh_pho": "Nha Trang",
+    "tinh": "Lâm Đồng",
+    "thoi_gian": "5 ngày 4 đêm",
+    "ngay_di": "2024-07-25",
+    "gia_tien": 6000000,
+    "image_url": "https://www.vietnambooking.com/wp-content/uploads/2023/03/tour-du-lich-tan-cuong-9n9d.png",
+    "is_bookMarked": "false"
+  }
+]
