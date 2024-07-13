@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hà Nội",
+    "properties": 12345,
+    "image_url": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA"
+  },
+  {
+    "name": "Hồ Chí Minh",
+    "properties": 67890,
+    "image_url": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA"
+  },
+  {
+    "name": "Đà Nẵng",
+    "properties": 54321,
+    "image_url": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA"
+  },
+  {
+    "name": "Hội An",
+    "properties": 98765,
+    "image_url": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA"
+  },
+  {
+    "name": "Huế",
+    "properties": 13579,
+    "image_url": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA"
+  },
+  {
+    "name": "Nha Trang",
+    "properties": 24680,
+    "image_url": "https://vcdn1-dulich.vnecdn.net/2022/06/03/cauvang-1654247842-9403-1654247849.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Swd6JjpStebEzT6WARcoOA"
+  }
+]

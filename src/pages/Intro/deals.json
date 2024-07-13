@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Labar Hotel",
+    "address": "Hanoi, Viet Nam",
+    "score": 5.0,
+    "review_number": 321,
+    "night_number": 12,
+    "real_price": 776,
+    "discount_price": 472,
+    "is_genius": true,
+    "special_deal": "Getaway Deal",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Ocean View",
+    "address": "Ho Chi Minh City, Viet Nam",
+    "score": 1.5,
+    "review_number": 551,
+    "night_number": 7,
+    "real_price": 258,
+    "discount_price": 345,
+    "is_genius": false,
+    "special_deal": null,
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Labar Hotel",
+    "address": "Hanoi, Viet Nam",
+    "score": 0.2,
+    "review_number": 669,
+    "night_number": 10,
+    "real_price": 929,
+    "discount_price": 701,
+    "is_genius": false,
+    "special_deal": "Limited-time Deal",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Labar Hotel",
+    "address": "Ho Chi Minh City, Viet Nam",
+    "score": 1.3,
+    "review_number": 101,
+    "night_number": 5,
+    "real_price": 284,
+    "discount_price": 772,
+    "is_genius": true,
+    "special_deal": "Limited-time Deal",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Ocean View",
+    "address": "Hanoi, Viet Nam",
+    "score": 0.4,
+    "review_number": 371,
+    "night_number": 1,
+    "real_price": 696,
+    "discount_price": 631,
+    "is_genius": true,
+    "special_deal": "Getaway Deal",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Ocean View",
+    "address": "Ho Chi Minh City, Viet Nam",
+    "score": 5.8,
+    "review_number": 82,
+    "night_number": 4,
+    "real_price": 123,
+    "discount_price": 569,
+    "is_genius": false,
+    "special_deal": "Getaway Deal",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Sunrise Resort",
+    "address": "Ho Chi Minh City, Viet Nam",
+    "score": 2.3,
+    "review_number": 850,
+    "night_number": 3,
+    "real_price": 910,
+    "discount_price": 865,
+    "is_genius": false,
+    "special_deal": null,
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Labar Hotel",
+    "address": "Da Nang, Viet Nam",
+    "score": 7.6,
+    "review_number": 81,
+    "night_number": 14,
+    "real_price": 924,
+    "discount_price": 319,
+    "is_genius": false,
+    "special_deal": null,
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Ocean View",
+    "address": "Da Nang, Viet Nam",
+    "score": 8.4,
+    "review_number": 17,
+    "night_number": 6,
+    "real_price": 781,
+    "discount_price": 249,
+    "is_genius": false,
+    "special_deal": "Getaway Deal",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square600/570649051.jpg?k=e0cf468bad0b067feb1e083609e1e49cdfea88639c43c864f82465ea2d8aa085&o="
+  },
+  {
+    "name": "Mountain Retreat",
+    "address": "Nha Trang, Viet Nam",
+    "score": 2.2,
+    "review_number": 242,
+    "night_number": 9,
+    "real_price": 727,
+    "discount_price": 569,
+    "is_genius": false,
+    "special_deal": null
+  }
+]

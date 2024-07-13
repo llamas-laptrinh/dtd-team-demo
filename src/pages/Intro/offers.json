@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Khám Phá Hà Nội",
+    "short_description": "Tour 1 ngày tham quan các điểm nổi tiếng tại Hà Nội như Hồ Hoàn Kiếm, Lăng Bác, Văn Miếu. Giảm giá 20%.",
+    "image_url": "https://i.pinimg.com/originals/00/a4/32/00a4324138b60ed353eb0207b9391449.jpg"
+  },
+  {
+    "name": "Du Lịch Đà Nẵng",
+    "short_description": "4 ngày 3 đêm khám phá Đà Nẵng với các điểm đến nổi tiếng như Bà Nà Hills, Ngũ Hành Sơn. Giảm giá 15%.",
+    "image_url": "https://i.pinimg.com/originals/00/a4/32/00a4324138b60ed353eb0207b9391449.jpg"
+  },
+  {
+    "name": "Tour Sài Gòn - Cần Thơ",
+    "short_description": "2 ngày 1 đêm tham quan Sài Gòn sôi động và vùng sông nước Cần Thơ. Giảm giá 10%.",
+    "image_url": "https://i.pinimg.com/originals/00/a4/32/00a4324138b60ed353eb0207b9391449.jpg"
+  },
+  {
+    "name": "Phú Quốc Thiên Đường Biển",
+    "short_description": "3 ngày 2 đêm tận hưởng biển xanh và cát trắng tại đảo Phú Quốc. Giảm giá 25%.",
+    "image_url": "https://i.pinimg.com/originals/00/a4/32/00a4324138b60ed353eb0207b9391449.jpg"
+  },
+  {
+    "name": "Du Lịch Huế",
+    "short_description": "3 ngày 2 đêm khám phá thành phố Huế cổ kính với các di tích lịch sử nổi tiếng. Giảm giá 18%.",
+    "image_url": "https://i.pinimg.com/originals/00/a4/32/00a4324138b60ed353eb0207b9391449.jpg"
+  }
+]
