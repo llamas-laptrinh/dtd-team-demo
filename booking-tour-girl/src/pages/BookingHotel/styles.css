@@ -1,0 +1,124 @@
+.container-body {
+  margin-top: 50px;
+}
+
+.sort-and-title {
+  margin-bottom: 16px;
+}
+
+.filters {
+  margin-top: 20px;
+}
+
+.filters .MuiTypography-subtitle1 {
+  margin-top: 20px;
+}
+
+.hotel-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 20px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+@media (min-width: 600px) {
+  .hotel-card {
+    flex-direction: row;
+    margin: 20px;
+  }
+}
+
+.hotel-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (min-width: 600px) {
+  .hotel-image {
+    width: 336px;
+    height: 328px;
+  }
+}
+
+.hotel-card-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.hotel-name {
+  font-weight: bold;
+  color: #0953DD;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+@media (min-width: 600px) {
+  .hotel-name {
+    font-size: 23px;
+  }
+}
+
+.hotel-map-link {
+  color: #0071c2;
+}
+
+.hotel-distance,
+.hotel-description {
+  margin-top: 5px;
+  color: #333333;
+}
+
+.hotel-rating {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hotel-star {
+  color: #FDA909;
+}
+
+.hotel-rating-value,
+.hotel-review-count {
+  margin-left: 5px;
+}
+
+.hotel-original-price {
+  margin-right: 10px;
+  color: #d32f2f;
+  text-decoration: line-through;
+}
+
+.hotel-price {
+  color: #333333;
+  font-weight: bold;
+}
+
+.hotel-promotion {
+  margin-top: 10px;
+  background-color: #0071c2;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.hotel-tax {
+  color: #6b6b6b;
+}
+
+.hotel-button {
+  background-color: #0071c2;
+  color: white;
+}
+
+.availability-info {
+  color: #d32f2f;
+  margin-top: 10px;
+}

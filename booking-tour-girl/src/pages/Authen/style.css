@@ -1,0 +1,99 @@
+body {
+  font-family: "Blue Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.login-button {
+  width: 100%;
+  height: 40px;
+  background-color: #1a73e8;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.alternative-options {
+  margin-top: 20px;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.separator span {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.alternative-text {
+  font-weight: bold;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.social-button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.footer p {
+  margin: 0;
+}
