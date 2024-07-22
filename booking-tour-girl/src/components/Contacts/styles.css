@@ -1,0 +1,132 @@
+.contacts-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px !important;
+  }
+  
+  .price-section {
+    background-color: #003366; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #cccccc;
+  }
+  
+  .discounted-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00; 
+    margin-top: 5px;
+  }
+  
+  .price-unit {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    background-color: white; 
+    color: black; 
+  }
+  
+  .book-button {
+    background-color: #ffcc00; 
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .hotline-section {
+    background-color: #1976d2; 
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hotline-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .hotline-info {
+    font-size: 14px;
+    color: white;
+    margin: 5px 0;
+  }
+  
+  .hotline-number {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .hotline-support {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .contacts-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .contact-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1976d2;
+    padding-bottom: 5px;
+  }
+  
+  .contact-list {
+    margin-top: 10px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .phone-icon {
+    color: #00c853; 
+    margin-right: 10px;
+  }
+  
+  .contact-name {
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .contact-phone {
+    font-weight: bold;
+  }
+  

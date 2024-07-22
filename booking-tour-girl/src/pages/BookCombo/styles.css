@@ -1,0 +1,217 @@
+.container-body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* popularcombo */
+.combo {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 0;
+  }
+  
+  .combo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .combo-image {
+    height: 250px !important;
+    object-fit: cover;
+  }
+  
+  .combo-details {
+    padding: 8px 16px;
+    text-align: center;
+    display: contents;
+  }
+  
+  .combo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .combo-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-right: auto;
+  }
+  
+  .combo-button {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    padding: 0 16px;
+    margin-left: auto;
+  }
+  
+  .combo-button:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+  }
+  
+  .title-h7 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .combo-carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .combo-carousel-mobile {
+    display: none;
+  }
+  
+  .combo-carousel-desktop {
+    display: block;
+  }
+  
+  @media (max-width: 600px) {
+    .combo-carousel-mobile {
+      display: block;
+    }
+  
+    .combo-carousel-desktop {
+      display: none;
+    }
+
+  }
+  .ant-card-body {
+    padding: 0 !important;
+  }
+  
+  /* article */
+  .article-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 16px;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .article-image {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .article-details {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .article-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .article-card .ant-card-body {
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    height: 80px;
+  }
+  
+  .combo-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 16px;
+  }
+  
+  .combo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .combo-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .combo-details {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .combo-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .combo-button {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    padding: 0 16px;
+  }
+  
+  .combo-button:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+  }
+  /* HotelFlightCombos */
+.title-h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1a73e8;
+  display: inline-block; 
+}
+
+.line-full {
+  border: none;
+  border-top: 2px solid #1a73e8;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%; 
+  position: relative;
+  top: -8px;
+}
+
+.combo-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.combo-item {
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: #333;
+}
+
+.combo-item:hover {
+  color: #1a73e8;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .combo-item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 960px) {
+  .combo-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .combo-item {
+    width: 25%;
+  }
+}
