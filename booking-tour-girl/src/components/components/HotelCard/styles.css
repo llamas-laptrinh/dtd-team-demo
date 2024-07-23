@@ -1,0 +1,78 @@
+/* .hotel-card {
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.hotel-image {
+  width: 336px;
+  height: 328px;
+  object-fit: cover;
+}
+
+.hotel-card-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.hotel-name {
+  font-weight: bold;
+  color: #0953DD;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 1000;
+  font-size: 23px;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+.hotel-map-link {
+  color: #0071c2;
+}
+
+.hotel-distance, .hotel-description {
+  margin-top: 5px;
+  color: #333333;
+}
+
+.hotel-rating {
+  margin-top: 10px;
+}
+
+.hotel-star {
+  color: #FDA909;
+}
+
+.hotel-rating-value, .hotel-review-count {
+  margin-left: 5px;
+}
+
+.hotel-original-price {
+  margin-right: 10px;
+  color: #d32f2f;
+  text-decoration: line-through;
+}
+
+.hotel-price {
+  color: #333333;
+  font-weight: bold;
+}
+
+.hotel-promotion {
+  margin-top: 10px;
+  background-color: #0071c2;
+  color: white;
+}
+
+.hotel-tax {
+  color: #6b6b6b;
+}
+
+.hotel-button {
+  background-color: #0071c2;
+}
+
+.availability-info {
+  color: #d32f2f;
+  margin-top: 10px;
+} */
