@@ -2,8 +2,7 @@ import React from 'react';
 import { Box, Container, Grid } from '@mui/material';
 import TourInfo from '../../components/TourInfo';
 import Contacts from '../../components/Contacts';
-import RelatedTours from '../../components/RelatedTours'; // Make sure to import the 
-import './styles.css';
+import RelatedTours from '../../components/RelatedTours'; 
 import ImgTour1 from '../../assets/imgs/DetailTours/tour-du-lich-tan-cuong-trung-quoc-9n9d-1 (1).jpg';
 import ImgTour2 from '../../assets/imgs/DetailTours/tour-du-lich-tan-cuong-trung-quoc-9n9d-1.jpg';
 import ImgTour3 from '../../assets/imgs/DetailTours/tour-du-lich-tan-cuong-trung-quoc-9n9d-11.jpg';
@@ -12,6 +11,7 @@ import ImgTour5 from '../../assets/imgs/DetailTours/tour-du-lich-tan-cuong-trung
 import ReviewForm from '../../components/ReviewForm';
 import LatestPosts from '../../components/LatestPosts';
 import HotelFlightCombos from '../../components/HotelFlightCombos';
+import './styles.css';
 
 const DetailTour: React.FC = () => {
 
