@@ -10,7 +10,7 @@ use Illuminate\Validation\ValidationException;
 
 class OrderController extends Controller
 {
-
+    // Create a new order
     public function store(Request $request)
     {
         try {
@@ -30,6 +30,7 @@ class OrderController extends Controller
             ]);
 
             return response()->json(['order' => $order], 201);
+
         } catch (ValidationException $e) {
             return response()->json([
                 'message' => 'Validation failed',
@@ -43,6 +44,7 @@ class OrderController extends Controller
         }
     }
 
+    // Retrieve a single order by ID
     public function show($id)
     {
         try {
@@ -53,6 +55,7 @@ class OrderController extends Controller
         }
     }
 
+    // Retrieve all orders
     public function index()
     {
         try {
@@ -66,6 +69,7 @@ class OrderController extends Controller
         }
     }
 
+    // Update an existing order
     public function update(Request $request, $id)
     {
         try {
@@ -75,6 +79,7 @@ class OrderController extends Controller
             $order->update($request->all());
 
             return response()->json(['order' => $order], 200);
+
         } catch (ValidationException $e) {
             return response()->json([
                 'message' => 'Validation failed',
@@ -88,6 +93,7 @@ class OrderController extends Controller
         }
     }
 
+    // Delete an order
     public function destroy($id)
     {
         try {
@@ -99,6 +105,8 @@ class OrderController extends Controller
             return response()->json(['message' => 'Order not found'], 404);
         }
     }
+
+    // Validation logic for data
     protected function validateOrder(Request $request)
     {
         $request->validate([
