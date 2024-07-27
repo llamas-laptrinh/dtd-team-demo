@@ -1,0 +1,67 @@
+.review-form-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .review-form-title {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1976d2;
+    padding-bottom: 5px;
+  }
+  
+  .write-review-button {
+    background-color: #d32f2f;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    text-transform: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .write-review-button:hover {
+    background-color: #c12727;
+  }
+  
+  .review-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px !important;
+  }
+  
+  .submit-button {
+    background-color: #ff7043;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff5722;
+  }
+  
+  .review-message {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .review-message p {
+    margin: 0;
+    color: #388e3c;
+  }
+  
