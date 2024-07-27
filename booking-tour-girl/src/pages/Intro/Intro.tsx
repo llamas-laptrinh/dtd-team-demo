@@ -61,26 +61,26 @@ const Intro: React.FC = () => {
         return result;
     }
     const getData = () => {
-        fetch('src/pages/Intro/tour.json'
-            , {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                }
-            }
-        )
-            .then(function (response) {
-                console.log(response)
-                return response.json();
-            })
-            .then(function (myJson) {
-                console.log(myJson);
-                setTourData(chunkArray(myJson, 4));
-                // setTourData(myJson)
-                console.log('--------------------', chunkArray(myJson, 4));
+        // fetch('/src/pages/Intro/tour.json'
+        //     , {
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //             'Accept': 'application/json'
+        //         }
+        //     }
+        // )
+        //     .then(function (response) {
+        //         console.log(response)
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) {
+        //         console.log(myJson);
+        //         setTourData(chunkArray(myJson, 4));
+        //         // setTourData(myJson)
+        //         console.log('--------------------', chunkArray(myJson, 4));
 
-            });
-        fetch('src/pages/Intro/offers.json'
+        //     });
+        fetch('/src/pages/Intro/offers.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -98,7 +98,7 @@ const Intro: React.FC = () => {
                 setOfferData(myJson)
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
-        fetch('src/pages/Intro/city.json'
+        fetch('/src/pages/Intro/city.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -118,7 +118,7 @@ const Intro: React.FC = () => {
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
 
-        fetch('src/pages/Intro/property.json'
+        fetch('/src/pages/Intro/property.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -137,7 +137,7 @@ const Intro: React.FC = () => {
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
 
-        fetch('src/pages/Intro/deals.json'
+        fetch('/src/pages/Intro/deals.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -153,7 +153,7 @@ const Intro: React.FC = () => {
                 console.log(myJson);
                 setDealData(chunkArray(myJson, 4));
             });
-        fetch('src/pages/Intro/flightToVN.json'
+        fetch('/src/pages/Intro/flightToVN.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -171,7 +171,7 @@ const Intro: React.FC = () => {
                 // setCityData(myJson)
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
-        fetch('src/pages/Intro/flightFromVN.json'
+        fetch('/src/pages/Intro/flightFromVN.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -189,7 +189,8 @@ const Intro: React.FC = () => {
                 // setCityData(myJson)
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
-        fetch('src/pages/Intro/Visa.json'
+
+        fetch('/src/pages/Intro/Visa.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',
@@ -207,7 +208,7 @@ const Intro: React.FC = () => {
                 // setCityData(myJson)
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
-        fetch('src/pages/Intro/combo.json'
+        fetch('/src/pages/Intro/combo.json'
             , {
                 headers: {
                     'Content-Type': 'application/json',

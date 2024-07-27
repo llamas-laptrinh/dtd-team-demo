@@ -1,0 +1,12 @@
+{
+  "First Name": "John Doe",
+  "Last Name": "John",
+  "Display name": "JohnD",
+  "Email address": "johndoe@example.com",
+  "Phone number": "+1234567890",
+  "Date of birth": "1990-01-01",
+  "Nationality": "American",
+  "Sex": "Male",
+  "Address": "123 Main Street, Anytown, USA",
+  "Passport information": "Passport No: 123456789, Issued: 2015-01-01, Expiry: 2025-01-01"
+}
