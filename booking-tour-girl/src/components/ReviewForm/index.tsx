@@ -28,7 +28,7 @@ const ReviewForm: React.FC = () => {
         </Box>
         <Box className="form-group">
           <FormControl fullWidth className="form-control">
-            <InputLabel>Đánh giá</InputLabel>
+            <InputLabel className='reviews-text'>Đánh giá</InputLabel>
             <Select defaultValue="5 sao">
               <MenuItem value="5 sao">5 sao</MenuItem>
               <MenuItem value="4 sao">4 sao</MenuItem>
