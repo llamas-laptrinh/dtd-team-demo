@@ -63,7 +63,7 @@ export default function ChuyenDi() {
     <>
       {click ? (
         <>
-          <div className="bg-[#fff] xl:h-[52vh] h-[100vh] w-full  pt-[20px] pb-[50px]">
+          <div className="bg-[#fff] xl:h-[52vh] h-[100vh] w-full  pt-[50px] pb-[50px]">
             <div className="lg:flex lg:justify-center items-center w-full">
               <div>
                 <div className="flex xl:flex xl:justify-center justify-center items-center text-[20px] text-[#000] font-semibold font-sans">
@@ -445,7 +445,7 @@ export default function ChuyenDi() {
         </>
       ) : (
         <>
-          <div className="bg-[#fff] w-full   pt-[20px] pb-[50px] ">
+          <div className="bg-[#fff] w-full   pt-[50px] pb-[50px] ">
             <div className="lg:flex lg:justify-center lg:ml-[200px] items-center w-full xl:ml-[500px]">
               <div>
                 <div className="flex lg:justify-end   justify-center items-center text-[20px] t-[#000] font-semibold font-sans">
@@ -658,7 +658,7 @@ export default function ChuyenDi() {
           </div>
         </>
       )}
-      <div className="bg-[#e6eaed] absolute top-[100%] w-[100%] h-[100vh] ">
+      <div className="bg-[#e6eaed] absolute md:top-[100%] top-[130%] w-[100%] md:h-[70vh] h-[100vh] ">
         <div>
           <div className="border-2 w-[100%]  lg:flex lg:justify-between lg:items-center border-solid p-[25px] min-h-[180px] hover:border-blue-700  rounded-md bg-[#fff] h-[50vh] lg:h-[20vh]  m-auto mt-5 border-slate-400">
             <div className="flex justify-between items-center w-[80%]">

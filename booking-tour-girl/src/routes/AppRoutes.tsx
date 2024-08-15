@@ -10,6 +10,7 @@ import DetailTour from "../pages/DetailTour";
 import BookTickets from "../pages/bookTicket/BookTickets";
 import ChuyenDi from "../pages/bookTicket/ChuyenDi";
 import Booking from "../pages/bookTicket/Booking";
+import News from "../pages/New/News";
 
 export const AppRouter = () => {
   return (
@@ -25,6 +26,7 @@ export const AppRouter = () => {
           <Route path="/bookTicket" element={<BookTickets />} />
           <Route path="/Chuyen-Di" element={<ChuyenDi />} />
           <Route path="/booking" element={<Booking />} />
+          <Route path="/news" element={<News />} />
         </Route>
       </Routes>
     </BrowserRouter>

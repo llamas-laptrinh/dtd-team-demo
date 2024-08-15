@@ -18,7 +18,7 @@ export default function Booking() {
   const [chevron, setChevron] = useState(false);
   const [toggle, setToggle] = useState(true);
   return (
-    <div className="bg-[#edeef1] w-[100%] h-[100vh]">
+    <div className="bg-[#edeef1] w-[100%] xl:h-[100vh]  md:mt-[50px] h-[140vh] mt-[100px]">
       <div className=" flex justify-center items-center">
         <div className="xl:flex :justify-center w-[100%] lg:w-[60%]">
           <div className="bg-[#fff] border-2 w-[100%] xl:w-[70%] h-[50vh] lg:h-[47vh] rounded-lg shadow-2xl ">
