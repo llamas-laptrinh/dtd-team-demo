@@ -72,12 +72,12 @@ export default function News() {
   // ];
   const [data, setDate] = useState([]);
 
-  console.log(data);
   useEffect(() => {
     async function getData() {
       const newData = "http://127.0.0.1:8000/api/news";
       const response = await fetch(newData);
       const data = await response.json();
+      console.log(data);
       setDate(data);
     }
     getData();
