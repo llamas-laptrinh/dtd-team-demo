@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\TourController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\Api\RelatedTourController;
 use App\Http\Controllers\Api\OrderController;
+use App\Http\Controllers\Api\BookingTourController;
 
 // Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
 //     return $request->user();
@@ -29,3 +30,4 @@ Route::apiResource('tours', TourController::class);
 Route::apiResource('related-tours', RelatedTourController::class);
 Route::apiResource('news', NewsController::class);
 Route::apiResource('orders', OrderController::class);
+Route::apiResource('bookingtours', BookingTourController::class);

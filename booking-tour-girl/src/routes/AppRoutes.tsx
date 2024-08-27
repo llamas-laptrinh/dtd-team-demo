@@ -19,22 +19,23 @@ import BookTickets from "../pages/bookTicket/BookTickets";
 import ChuyenDi from "../pages/bookTicket/ChuyenDi";
 import Booking from "../pages/bookTicket/Booking";
 import News from "../pages/New/News";
+import BookingTour from "../pages/BookingTour";
 
 export const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/auth" element={<Auth />} />
-        <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/bookinghotel" element={<BookingHotel />} />
-        <Route path="/bookcombo" element={<BookCombo />} />
-        <Route path="/detailtour" element={<DetailTour />} />
-        <Route path="/bookTicket" element={<BookTickets />} />
         <Route path="/Chuyen-Di" element={<ChuyenDi />} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/bookTicket" element={<BookTickets />} />
         <Route path="/Home/" element={<Layout />}>
           <Route path="news" element={<News />} />
           <Route path="Intro" element={<Intro />} />
+          <Route path="auth" element={<Auth />} />
+          <Route path="forgot-password" element={<ForgotPassword />} />
+          <Route path="bookinghotel" element={<BookingHotel />} />
+          <Route path="bookcombo" element={<BookCombo />} />
+          <Route path="detailtour" element={<DetailTour />} />
         </Route>
         <Route path="/Setting/" element={<Setting />}>
           <Route index element={<PersonalInformationSetting />} />
@@ -45,6 +46,7 @@ export const AppRouter = () => {
           <Route path="Email" element={<EmailSetting />} />
           <Route path="Companion" element={<CompanionSetting />} />
         </Route>
+        <Route path="/bookingtour/*" element={<BookingTour />} />
       </Routes>
     </BrowserRouter>
   );
