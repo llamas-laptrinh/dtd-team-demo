@@ -20,11 +20,13 @@ import ChuyenDi from "../pages/bookTicket/ChuyenDi";
 import Booking from "../pages/bookTicket/Booking";
 import News from "../pages/New/News";
 import BookingTour from "../pages/BookingTour";
+import TourAdmin from "../pages/TourAdmin";
 
 export const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/tourAdmin" element={<TourAdmin/>} />
         <Route path="/Chuyen-Di" element={<ChuyenDi />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/bookTicket" element={<BookTickets />} />

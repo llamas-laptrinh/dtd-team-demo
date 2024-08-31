@@ -1,0 +1,28 @@
+.listItem {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listItem:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .iconButton {
+    color: #4CAF50;
+    transition: color 0.3s ease;
+  }
+  
+  .iconButton:hover {
+    color: #388E3C;
+  }
+  
+  .deleteButton {
+    color: #f44336;
+    transition: color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    color: #d32f2f;
+  }
