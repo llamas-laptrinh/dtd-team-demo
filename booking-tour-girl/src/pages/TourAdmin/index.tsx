@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button, Layout, Typography, Modal, Row, Col, Card } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { Button, Layout, Typography, Modal, Row, Col, Card, message } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 import TourForm from '../../components/TourFormAdmin';
 import TourList from '../../components/TourListAdmin';
@@ -34,6 +34,20 @@ const TourAdmin: React.FC = () => {
   const [tours, setTours] = useState<TourData[]>([]);
   const [editingTour, setEditingTour] = useState<TourData | null>(null);
 
+  useEffect(() => {
+    fetchTours();
+  }, []);
+
+  const fetchTours = async () => {
+    try {
+      const response = await fetch('http://127.0.0.1:8000/api/tours');
+      const data = await response.json();
+      setTours(data);
+    } catch (error) {
+      message.error('Error fetching tour data.');
+    }
+  };
+
   const handleAddTour = (newTour: TourData) => {
     if (editingTour) {
       setTours(tours.map(tour => (tour.id === newTour.id ? newTour : tour)));
@@ -42,6 +56,7 @@ const TourAdmin: React.FC = () => {
     }
     setShowForm(false);
     setEditingTour(null);
+    fetchTours();
   };
 
   const handleEditTour = (tour: TourData) => {
