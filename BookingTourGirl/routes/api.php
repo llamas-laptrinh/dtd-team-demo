@@ -8,6 +8,7 @@ use App\Http\Controllers\Auth\UserProfileController;
 use App\Http\Controllers\Api\TourController;
 use App\Http\Controllers\Api\HotelController;
 use App\Http\Controllers\Api\TicketController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\Api\RelatedTourController;
 use App\Http\Controllers\Api\OrderController;
 
@@ -32,4 +33,5 @@ Route::group(['middleware'=> ["auth:sanctum"]], function(){
 
 Route::apiResource('tours', TourController::class);
 Route::apiResource('related-tours', RelatedTourController::class);
+Route::apiResource('news', NewsController::class);
 Route::apiResource('orders', OrderController::class);

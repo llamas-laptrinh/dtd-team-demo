@@ -44,10 +44,16 @@ function BookTickets() {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [customer, setCustomer] = useState("");
-
+  // const [news, setNews] = useState([]);
+  // useEffect(() => {
+  //   const newsData = "http://127.0.0.1:8000/api/news";
+  //   const response = fetch(newsData);
+  //   const responseJson = response.json();
+  //   console.log(responseJson);
+  // }, []);
   return (
     <>
-      <div className="font-mono">
+      <div className="font-mono md:h-[80vh] h-[90vh]">
         <div>
           <ul className=" flex justify-center items-center  bg-[#000] text-[#fff] p-3 text-[0.875rem] ">
             <li>

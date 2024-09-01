@@ -10,7 +10,8 @@ import Safety from "../pages/Setting/Safety";
 import BillingSetting from "../pages/Setting/Billing";
 import PrivacySetting from "../pages/Setting/Privacy";
 import EmailSetting from "../pages/Setting/Email";
-import CompanionSetting from "../pages/Setting/Companion"; import Auth from "../pages/Authen";
+import CompanionSetting from "../pages/Setting/Companion";
+import Auth from "../pages/Authen";
 import ForgotPassword from "../pages/ForgotPassword";
 import BookingHotel from "../pages/BookingHotel";
 import BookCombo from "../pages/BookCombo";
@@ -21,37 +22,39 @@ import Booking from "../pages/bookTicket/Booking";
 import AdminDashboard from "../pages/Admin/Dashboard";
 import ManageHotel from "../pages/Admin/ManageHotel";
 import ManageTicket from "../pages/Admin/ManageTicket";
+import News from "../pages/New/News";
 
 export const AppRouter = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/Home/" element={<Layout />}>
-                    <Route path='Intro' element={<Intro />} />
-                </Route>
-                <Route path="/Admin/" element={<AdminLayout />}>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/bookinghotel" element={<BookingHotel />} />
+        <Route path="/bookcombo" element={<BookCombo />} />
+        <Route path="/detailtour" element={<DetailTour />} />
+        <Route path="/bookTicket" element={<BookTickets />} />
+        <Route path="/Chuyen-Di" element={<ChuyenDi />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/Home/" element={<Layout />}>
+          <Route path="news" element={<News />} />
+          <Route path="Intro" element={<Intro />} />
+        </Route>
+        <Route path="/Setting/" element={<Setting />}>
+          <Route index element={<PersonalInformationSetting />} />
+          <Route path="Options" element={<OptionsSetting />} />
+          <Route path="Safety" element={<Safety />} />
+          <Route path="Billing" element={<BillingSetting />} />
+          <Route path="Privacy" element={<PrivacySetting />} />
+          <Route path="Email" element={<EmailSetting />} />
+          <Route path="Companion" element={<CompanionSetting />} />
+        </Route>
+         <Route path="/Admin/" element={<AdminLayout />}>
                     <Route path='Dashboard' element={<AdminDashboard />} />
                     <Route path='ManageHotel' element={<ManageHotel />} />
                     <Route path='ManageTicket' element={<ManageTicket />} />
                 </Route>
-                <Route path='/Setting/' element={<Setting />} >
-                    <Route index element={<PersonalInformationSetting />} />
-                    <Route path='Options' element={<OptionsSetting />} />
-                    <Route path='Safety' element={<Safety />} />
-                    <Route path='Billing' element={<BillingSetting />} />
-                    <Route path='Privacy' element={<PrivacySetting />} />
-                    <Route path='Email' element={<EmailSetting />} />
-                    <Route path='Companion' element={<CompanionSetting />} />
-                    {/* <Route path="/auth" element={<Auth />} />
-            <Route path="/forgot-password" element={<ForgotPassword />} />
-            <Route path="/bookinghotel" element={<BookingHotel />} />
-            <Route path="/bookcombo" element={<BookCombo />} />
-            <Route path="/detailtour" element={<DetailTour />} />
-            <Route path="/bookTicket" element={<BookTickets />} />
-            <Route path="/Chuyen-Di" element={<ChuyenDi />} />
-            <Route path="/booking" element={<Booking />} /> */}
-                </Route>
-            </Routes>
-        </BrowserRouter >
-    );
+      </Routes>
+    </BrowserRouter>
+  );
 };
