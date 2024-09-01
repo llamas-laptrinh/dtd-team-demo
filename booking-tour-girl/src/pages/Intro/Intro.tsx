@@ -11,6 +11,8 @@ import { DealProps } from "../../types/common";
 import DealComponent from "./DealComponent";
 import { ComboProps } from "../../types/common";
 import ComboComponent from "./ComboComponent";
+import axios from 'axios';
+
 
 // interface TourProps {
 //     "id": number
@@ -227,8 +229,63 @@ const Intro: React.FC = () => {
                 // console.log('--------------------', chunkArray(myJson, 4));
             });
     }
+    // function getTenantAccessToken() {
+    //     const url = 'https://open.larksuite.com/open-apis/auth/v3/tenant_access_token/internal';
+    //     const headers = {
+    //         'Content-Type': 'application/json; charset=utf-8'
+    //     };
+    //     const data = {
+    //         app_id: 'cli_a64ad86a13789010',
+    //         app_secret: 'fOeq6GSI5As1AAhiKTjTjfNBFtNT3nUG'
+    //     };
+    //     fetch(url, {
+    //         method: 'POST',
+    //         headers: headers,
+    //         body: JSON.stringify(data)
+    //     })
+    //         .then(res => {
+    //             if (!res.ok) {
+    //                 throw new Error(`Request failed with status ${res.status}`);
+    //             }
+    //             return res.json();
+    //         })
+    //         .then(responseData => {
+    //             console.log('Response JSON:', responseData);
+    //         })
+    //         .catch(err => {
+    //             console.error('Error occurred:', err);
+    //         });
+
+    // }
+    // function getTenantAccessToken() {
+    //     const data = JSON.stringify({
+    //         app_id: 'cli_a64ad86a13789010',
+    //         app_secret: 'fOeq6GSI5As1AAhiKTjTjfNBFtNT3nUG'
+    //     });
+    //     const config = {
+    //         method: 'POST',
+    //         url: 'https://open.larksuite.com/open-apis/auth/v3/tenant_access_token/internal',
+    //         headers: {
+    //             'Content-Type': 'application/json; charset=utf-8',
+    //             'Accept': '*/*',
+    //             'User-Agent': 'PostmanRuntime/7.41.1',
+    //             'Cookie': 'lark_oapi_csrf_token=SAixmLXWFK1CKol/tGwJYgtZY0nENPqHqAdaxtRw76g='
+    //         },
+    //         data: data,
+    //         withCredentials: true
+    //     };
+    //     axios(config)
+    //         .then(function (response) {
+    //             console.log(JSON.stringify(response.data));
+    //         })
+    //         .catch(function (error) {
+    //             console.log(error);
+    //         });
+    // }
+
     useEffect(() => {
         getData();
+        // getTenantAccessToken()
     }, [])
     return (
         <div className="">
