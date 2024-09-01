@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import MailVerificationResult from "../pages/Auth/MailVerificationResult";
 import Intro from "../pages/Intro/Intro";
 import Layout from "../pages/Layout";
+import AdminLayout from "../pages/AdminLayout";
 import Setting from "../pages/Setting";
 import PersonalInformationSetting from "../pages/Setting/Personal_Information";
 import OptionsSetting from "../pages/Setting/Options";
@@ -18,6 +19,9 @@ import DetailTour from "../pages/DetailTour";
 import BookTickets from "../pages/bookTicket/BookTickets";
 import ChuyenDi from "../pages/bookTicket/ChuyenDi";
 import Booking from "../pages/bookTicket/Booking";
+import AdminDashboard from "../pages/Admin/Dashboard";
+import ManageHotel from "../pages/Admin/ManageHotel";
+import ManageTicket from "../pages/Admin/ManageTicket";
 import News from "../pages/New/News";
 
 export const AppRouter = () => {
@@ -45,6 +49,11 @@ export const AppRouter = () => {
           <Route path="Email" element={<EmailSetting />} />
           <Route path="Companion" element={<CompanionSetting />} />
         </Route>
+         <Route path="/Admin/" element={<AdminLayout />}>
+                    <Route path='Dashboard' element={<AdminDashboard />} />
+                    <Route path='ManageHotel' element={<ManageHotel />} />
+                    <Route path='ManageTicket' element={<ManageTicket />} />
+                </Route>
       </Routes>
     </BrowserRouter>
   );

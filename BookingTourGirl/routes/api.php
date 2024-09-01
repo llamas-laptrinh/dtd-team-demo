@@ -6,6 +6,8 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\LoginUserController;
 use App\Http\Controllers\Auth\UserProfileController;
 use App\Http\Controllers\Api\TourController;
+use App\Http\Controllers\Api\HotelController;
+use App\Http\Controllers\Api\TicketController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\Api\RelatedTourController;
 use App\Http\Controllers\Api\OrderController;
@@ -17,11 +19,15 @@ use App\Http\Controllers\Api\OrderController;
 
 Route::post('/register', [RegisteredUserController::class,'store']); 
 Route::post('/login', [LoginUserController::class,'login']); 
+Route::apiResource('hotel', HotelController::class);
+Route::apiResource('ticket', TicketController::class);
+
 
 Route::group(['middleware'=> ["auth:sanctum"]], function(){
         Route::post('updateProfile', [UserProfileController::class,'updateProfile']); 
         Route::put('updatePassword', [UserProfileController::class,'updatePassword']); 
-        Route::get('logout', [LoginUserController::class,'logout']); 
+        Route::get('logout', [LoginUserController::class,'logout']);
+
 });
 
 
